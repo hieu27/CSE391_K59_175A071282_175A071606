@@ -1,0 +1,30 @@
+body{
+  background:rgb(215, 215, 215);
+  width: 70%;
+  margin: auto;
+}
+.box{
+  float: right;
+}
+div.menu1{
+  background: rgb(11, 76, 245);
+  text-decoration: none;
+  color: white;
+  font-family: Calibri ;
+  font-size: 15px;
+  text-align: center;
+  height: 20px;
+  padding: 10px;
+}
+div.menu1 a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+footer{
+  background: rgb(27, 124, 252);
+  color: white;
+  line-height: 35px;
+  font-family: Arial;
+  padding: 5px 5px 15px 15px;
+}
