@@ -1,0 +1,49 @@
+body{
+  width: 70%;
+  margin: auto;
+  background-color: rgb(167, 167, 167);
+}
+#wrapper{
+  background-color: rgb(255, 255, 255);
+}
+.nav{
+  background-color: #004f9e ;
+}
+.nav li a{
+  color: white ;
+  font-family: Calibri ;
+  font-size: 16px;
+}
+.search{
+    background-color: #004f9e;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    height: 35px;
+}
+.container-fluid .tl-item{
+    float: right;
+    margin: 5px 15px 5px 15px;
+}
+.banner img{
+  width: 100%;
+}
+.navbar{
+  background-color: rgb(15, 118, 238) !important;
+}
+.navbar li a{
+  color: white !important;
+  padding: 10px;
+}
+.dropdown-menu{
+  background-color: rgb(15, 118, 238) !important;
+}
+#footer{
+  background: rgb(27, 124, 252);
+  color: white;
+  line-height: 35px;
+  font-family: Arial;
+  padding: 5px 5px 15px 15px;
+
+}

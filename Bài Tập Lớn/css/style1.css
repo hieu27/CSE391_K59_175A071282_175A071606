@@ -10,6 +10,9 @@ body{
 .box{
   float: right;
 }
+.d-block{
+  width: 150%
+}
 div.menu1{
   background: rgb(11, 76, 245);
   text-decoration: none;
