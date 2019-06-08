@@ -1,0 +1,110 @@
+body{
+	background: #DDD;
+	margin: auto;
+	width: 70%;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.page{
+	background: white;
+}
+
+.top-menu{
+	background: #004f9e;
+}
+.search-box{
+	border-radius: 20px;
+	background: #2e86de;
+}
+.search-txt{
+	border:none;
+	background: none;
+	outline: none;
+	color: white;
+}
+.navbar{
+	height: auto;
+}
+
+ .top-menu .nav-link{
+ 	text-transform: uppercase;
+ 	font-size: 13px;
+	color: white;
+}
+
+.navbar .nav-link{
+	text-transform: uppercase;
+ 	font-size: 15px;
+ 	font-weight: bold;
+	color: white !important;
+}
+
+
+/* .dropdown-toggle::after{
+    display: none;
+} */
+
+.news-feed marquee{
+	background: #FDE89E;
+}
+.news-feed marquee a{
+	color: #f52121;
+	font-weight: bold;
+	position: relative;
+}
+marquee::before{
+	content: 'Đang tuyển sinh';
+	position: absolute;
+	border-radius: 0 50px 0 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	color: yellow;
+	background-color: #1586FA;
+	width: 200px;
+	padding: 0;
+	z-index: 1;
+}
+/* .carousel-item{
+	height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+ */
+
+/* .carousel-caption .title{
+	
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 101, 202, 0.7);
+    z-index: 1;
+    padding: 15px;
+    color: #fffefe !important;
+    font-weight: 400;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background: rgb(27, 124, 252);
+  color: white;
+  line-height: 35px;
+  font-family: Arial;
+  padding: 5px 0px 0px 5px;
+}
+.footer a span{
+  font-size: 35px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+}

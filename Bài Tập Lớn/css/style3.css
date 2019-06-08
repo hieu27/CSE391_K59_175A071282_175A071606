@@ -17,17 +17,21 @@ body{
 .search{
     background-color: #004f9e;
     color: #fff;
-    padding-top: 5px;
+    /* padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 5px;
+    padding-right: 5px; */
     height: 35px;
+}
+input{
+  border-radius: 30px;
 }
 .container-fluid .tl-item{
     float: right;
     margin: 5px 15px 5px 15px;
 }
 .banner img{
-  width: 100%;
+  width: auto;
+  height: auto;
 }
 .navbar{
   background-color: rgb(15, 118, 238) !important;
@@ -45,5 +49,10 @@ body{
   line-height: 35px;
   font-family: Arial;
   padding: 5px 5px 15px 15px;
-
+}
+#footer a span{
+  font-size: 40px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 30px;
 }

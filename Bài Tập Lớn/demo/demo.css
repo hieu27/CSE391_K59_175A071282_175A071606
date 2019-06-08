@@ -1,0 +1,26 @@
+.abc{
+	background-color: green;
+	margin: 50px;
+	width: 100%;
+	height: 50px;
+	word-wrap: break-word;
+	position: relative;
+}
+.abc::before{
+	content: "Đang tuyển sinh";
+	position: absolute;
+	word-wrap: break-word;
+	background-color: black;
+	font-weight: bold;
+	justify-content: center;
+	color: red;
+	justify-content: center;
+	width: 10%;
+	height: 100%;
+	z-index: 1;
+	
+	
+}
+div a{
+	padding-top:  20px;
+}
