@@ -84,10 +84,43 @@ marquee::before{
     font-weight: 400;
 }
  */
+.box-right{
+	height: 550px;
+}
+.tab-content div ul{
+	max-height: 200px;
+	overflow: auto;
+}
 
 
-
-
+.box-menu .box1 a{
+	text-align: center;
+	padding: 20px 0;
+	width:160px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.box2 ul .nav-link{
+	color:#353b48;
+	text-transform:uppercase;
+	font-weight:600;
+}
+.box2 ul .nav-link:hover{
+	border: 1px solid #0984e3;
+	color: #0984e3;
+}
+.box2 ul .nav-link.active{
+	background: #0984e3;
+	color: white;
+}
+.box2 ::-webkit-scrollbar{
+	background: #fff;
+	width: 5px;
+}
+.box2:hover ::-webkit-scrollbar-thumb{
+	background: #2e86de;
+	border-radius: 2px;
+}
 
 
 
@@ -99,7 +132,6 @@ marquee::before{
   background: rgb(27, 124, 252);
   color: white;
   line-height: 35px;
-  font-family: Arial;
   padding: 5px 0px 0px 5px;
 }
 .footer a span{
