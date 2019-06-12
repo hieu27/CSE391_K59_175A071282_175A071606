@@ -1,4 +1,16 @@
-$('.owl-carousel').owlCarousel({
+$('.main-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots: false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    items: 1,
+    
+})
+
+
+$('.footer-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
@@ -17,3 +29,20 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 40){
+            $('#gotop').fadeIn();
+        } else{
+            $('#gotop').fadeOut();
+        }
+    });
+
+    $("#gotop").click(function() {
+        $('html, body').animate({scrollTop: 0}, 500)
+    });
+});
